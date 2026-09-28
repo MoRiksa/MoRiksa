@@ -115,9 +115,9 @@ A cross-platform mobile application built with Expo and file-based routing as pa
 
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/MoRiksa/MoRiksa/output/github-contribution-grid-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/MoRiksa/MoRiksa/output/github-contribution-grid-snake.svg">
-    <img alt="Jodi Pascal's contribution activity" src="https://raw.githubusercontent.com/MoRiksa/MoRiksa/output/github-contribution-grid-snake-dark.svg" width="100%">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/MoRiksa/MoRiksa/gh-pages/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/MoRiksa/MoRiksa/gh-pages/github-contribution-grid-snake.svg">
+    <img alt="Jodi Pascal's contribution activity" src="https://raw.githubusercontent.com/MoRiksa/MoRiksa/gh-pages/github-contribution-grid-snake-dark.svg" width="100%">
   </picture>
 </div>
 

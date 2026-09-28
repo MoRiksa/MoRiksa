@@ -13,6 +13,12 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 5
     steps:
+      - name: Check out output branch
+        uses: actions/checkout@v5
+        with:
+          ref: gh-pages
+          path: dist
+
       - name: Generate SVGs
         uses: Platane/snk/svg-only@v3
         with:
@@ -22,9 +28,11 @@ jobs:
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
 
       - name: Publish SVGs
-        uses: crazy-max/ghaction-github-pages@v4
-        with:
-          build_dir: dist
-          branch: output
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        working-directory: dist
+        run: |
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+          git add github-contribution-grid-snake*.svg
+          git diff --cached --quiet && exit 0
+          git commit -m "Update contribution snake"
+          git push
