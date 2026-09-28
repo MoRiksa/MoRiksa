@@ -1,0 +1,14 @@
+<svg width="1200" height="320" viewBox="0 0 1200 320" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Jodi Pascal</title>
+  <desc id="desc">Backend systems, data pipelines, and AI developer tools</desc>
+  <rect width="1200" height="320" rx="18" fill="#0D1117"/>
+  <path d="M0 255H1200M0 207H1200M0 159H1200M0 111H1200M162 0V320M354 0V320M546 0V320M738 0V320M930 0V320" stroke="#21262D"/>
+  <rect x="58" y="52" width="10" height="10" fill="#2F81F7"/>
+  <text x="82" y="63" fill="#8B949E" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15" letter-spacing="2">MORIKSA / ENGINEERING PROFILE</text>
+  <text x="56" y="157" fill="#F0F6FC" font-family="Arial, Helvetica, sans-serif" font-size="68" font-weight="700" letter-spacing="-3">JODI PASCAL</text>
+  <text x="60" y="202" fill="#8B949E" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="18">backend systems · data pipelines · AI developer tools</text>
+  <line x1="60" y1="253" x2="1090" y2="253" stroke="#30363D"/>
+  <circle cx="1077" cy="253" r="6" fill="#3FB950"/>
+  <text x="60" y="280" fill="#58A6FF" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14">BANDUNG, INDONESIA</text>
+  <text x="1090" y="280" fill="#8B949E" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14">BUILD · OBSERVE · IMPROVE</text>
+</svg>
